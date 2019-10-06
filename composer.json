@@ -1,0 +1,20 @@
+{
+    "name": "brady/test-tool",
+    "description": "myself php tool",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "brady",
+            "email": "brady.wang@qq.com"
+        }
+    ],
+    "require": {
+        "php":">=7.1.9",
+        "monolog/monolog":"^1.0.1"
+    },
+    "autoload":{
+        "psr-4":{
+            "Brady\\Tool\\":"src/"
+        }
+    }
+}
